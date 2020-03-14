@@ -76,10 +76,8 @@
 .select1, .select2 {
     font-size: 17px;
     font-family: 'Airbnb Cereal App';
-    /* margin-left: 30px; */
     position: absolute;
     border: 1px solid #ffffff;
-    /* left: 70px; */
 }
 
 .select1 {
@@ -137,13 +135,11 @@
     width: 1280px;
     height: 300px;
     display: flex;
-    /* justify-content: space-between; */
     align-items: flex-start;
     position: absolute;
     top: 100px;
     left: 60px;
     box-sizing: border-box; 
-    /* border: 1px solid black; */
 }
 .card-1 {
     width: 400px;
@@ -223,7 +219,6 @@
     position: absolute;
     top: 450px;
     box-sizing: border-box;
-    /* border: 1px solid black; */
     width: 1280px;
     display: flex;
     left: 25px;
@@ -255,15 +250,6 @@
     margin-left: 10px;
 }
 
-
-/* @media screen and (min-width: 1200px) {
-    .container {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background-color: #E5E5E5;
-    }
-  } */
   
 
   /* popup modal */
@@ -271,7 +257,6 @@
   .popup-form {
     position: fixed;
     overflow: hidden;
-    /* visibility: hidden; */
     width: 0;
     height: 0;
     top: 0;
@@ -298,8 +283,6 @@
     right: 0;
     bottom: 0;
     background-color:rgba(196, 196, 196, 0.4);
-    /* opacity: .9; */
-    /* visibility: visible; */
   }
   .popup-form:target .form {
     background-color: #fff;
@@ -326,8 +309,6 @@
     margin-left: 200px;
     font-size: 20px;
     font-family: 'Airbnb Cereal App';
-    /* outline-color: rgb(53, 43, 43);
-    border-color: blue; */
   }
   .form textarea {
     height: 100px;
@@ -344,7 +325,6 @@
     position: absolute;
     display: inline-block;
     left: 20px;
-    /* margin-top: 10px; */
   }
   .form .l1 {
     top: 120px;

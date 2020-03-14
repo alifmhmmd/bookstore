@@ -14,7 +14,6 @@
     background-repeat: no-repeat;
     font-family: 'Airbnb Cereal App';
     box-sizing: border-box;
-    /* box-sizing: border-box; */
 }
 .back {
     width: 60px;
@@ -123,7 +122,6 @@
 .popup-form {
   position: fixed;
   overflow: hidden;
-  /* visibility: hidden; */
   width: 0;
   height: 0;
   top: 0;
@@ -150,8 +148,6 @@
   right: 0;
   bottom: 0;
   background-color:rgba(196, 196, 196, 0.4);
-  /* opacity: .9; */
-  /* visibility: visible; */
 }
 .popup-form:target .form {
   background-color: #fff;
@@ -179,8 +175,6 @@
   font-family: 'Airbnb Cereal App';
   font-size: 20px;
   color: #C8BABA;
-  /* outline-color: rgb(53, 43, 43);
-  border-color: blue; */
 }
 .form textarea {
   height: 100px;
@@ -198,7 +192,6 @@
   position: absolute;
   display: inline-block;
   left: 20px;
-  /* margin-top: 10px; */
 }
 .form .l1 {
   top: 120px;
