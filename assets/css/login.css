@@ -130,7 +130,35 @@ input, a, label {
 
 
 
-
+@media screen and (max-width:480px) {
+    .login-form img {
+        margin-left: 130px;
+        width: 100px;
+        height: 100px;
+    }
+    .login-image {
+        display: none;
+    }
+    .login h1,p {
+        text-align: center;
+    }
+    .inputBox [type="text"],.inputBox [type="password"] {
+        margin-left: 40px;
+    }
+    .check {
+        margin-left: 40px;
+    }
+    .button {
+        margin-left: 45px;
+        background-color: #000000; 
+    }
+    .button:hover {
+        background-color: #000000; 
+    }
+    .footer p {
+        margin-left: 20px;
+    }
+}
 
 
 
