@@ -376,7 +376,7 @@
 
 @media screen and (max-width:480px) {
     .container {
-        width: auto;
+        width: 40vw;
         height: auto;
     }
     .sidebar {
@@ -384,14 +384,18 @@
         height: 1500px;
     }
     .menu {
-        width: auto;
+        width: 400px;
         height: auto;
     }
-    /* .header {
-        width: auto;
-    } */
+    .header {
+        width: 400px;
+    }
     .header form {
         display: none;
+    }
+    .klik .image {
+        left: -55%;
+        top: 10px;
     }
     .search a {
         left: 120px;
@@ -399,7 +403,8 @@
     }
     .card {
         flex-direction: column;
-        width: auto;
+        width: 350px;
+        height: 600px;
         align-items: flex-start;
     }
     .card-1 {
@@ -422,9 +427,57 @@
     }
     .card-list {
         flex-direction: column;
+        top: 800px;
+        width: 300px;
+        left: 30px;
     }
-    /* .popup-form {
-        width: auto;
-        height: auto;
-    } */
+    .form {
+        width: 340px;
+        height: 500px;
+        margin-left: 20px;
+    }
+    .form [type="text"] {
+        width: 290px;
+        height: 20px;
+        margin-top: 0;
+        margin-left: 10px;
+        margin-bottom: 40px;
+      }
+      .form textarea {
+        height: 90px;
+        width: 290px;
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-size: 15px;
+      }
+      .form label {
+        font-size: 12px;
+      }
+      .form .l1 {
+        top: 70px;
+      }
+      .form .l2 {
+        top: 148px;
+      }
+      .form .l3 {
+        top: 230px;
+      }
+      .form h1 {
+        font-size: 15px;
+      }
+      .close img {
+        width: 25px;
+        height: 25px;
+        margin-left:-50px;
+        position: absolute;
+        top: 10px;
+      }
+      .form .simpan {
+        width: 100px;
+        height: 40px;
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 70px;
+        margin-left: 220px;
+      }
 }

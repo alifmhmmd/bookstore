@@ -291,3 +291,146 @@
   font-weight: 900;
 }
 
+
+@media screen and (max-width:480px) {
+  .container {
+    width: auto;
+    height: 1000px;
+  }
+  .cover {
+    width: auto;
+    height: 200px;
+    background-size: cover;
+    background-position: -50px 0;
+  }
+  .link {
+    position: absolute;
+    top: 17px;
+    left: 250px;
+    font-family: 'Airbnb Cereal App';
+ }
+ .link a{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: 'Airbnb Cereal App';
+  font-size: 20px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.buku {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left:290px;
+  font-family: 'Airbnb Cereal App';
+}
+.buku img {
+  width: 80px;
+  height: 100px;
+}
+.deskripsi {
+  width: 740px;
+  margin-top: 40px;
+  margin-left: 15px;
+  box-sizing: border-box;
+  font-family: 'Airbnb Cereal App';
+  position: relative;
+}
+.button {
+  width: 240px;
+  height: 54px;
+  border: 2px solid #FBCC38;
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #FBCC38;
+  text-align: center;
+  line-height: 54px;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 670px;
+  left: 80px;
+  font-family: 'Airbnb Cereal App';
+}
+.deskripsi .p2 {
+  font-size: 12px;
+  width: 350px;
+  height: 120px;
+  margin-right: 10px;
+  text-align: justify;
+  line-height: 15px;
+}
+.form {
+  width: 350px;
+  height: 450px;
+  position: relative;
+}
+.form [type="text"] {
+  width: 300px;
+  height: 20px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.form textarea {
+  height: 90px;
+  width: 300px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.form label {
+  font-size: 12px;
+}
+.form .l1 {
+  top: 70px;
+}
+.form .l2 {
+  top: 140px;
+}
+.form .l3 {
+  top: 210px;
+}
+.form h1 {
+  font-size: 15px;
+}
+.close img {
+  width: 25px;
+  height: 25px;
+  margin-left:-50px;
+  position: absolute;
+  top: 10px;
+}
+.form .simpan {
+  width: 100px;
+  height: 40px;
+  margin-left: 0;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-left: 225px;
+}
+.close-form {
+  width: 350px;
+  height: 250px;
+}
+.close-form a img {
+  width: 20px;
+  height: 20px;
+  margin-left:315px;
+  margin-top: 40px;
+  padding-top: 15px;
+}
+.close-form .checked {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.deskripsi .span {
+  font-size: 15px;
+  top: 20px;
+  left: 282px;
+}
+}
