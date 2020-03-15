@@ -7,10 +7,51 @@
     height: 100vh;
     display: flex;
 }
+.setting .link-a .prev {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.setting .link-b .next {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.setting .link-a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    border-radius: 50%;
+    line-height: 40px;
+    z-index: 9999;
+}
+.setting .link-b {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 180px;
+    left: 1010px;
+    border-radius: 50%;
+    line-height: 40px;
+    z-index: 9999;
+}
 .sidebar {
     width: 20%;
     height: 900px;
     background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
     z-index: 999;
 }
 #side-menu {
@@ -230,10 +271,18 @@
     top: 450px;
     box-sizing: border-box;
     width: 1280px;
+    height: 600px;
     display: flex;
     left: 25px;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+.card-list .p1 {
+    position: absolute;
+    top: -25px;
+    left: 140px;
+    font-size: 25px;
+    font-family: 'Airbnb Cereal App';
 }
 .gambar-1 {
     width: 280px; 
@@ -380,8 +429,24 @@
         height: auto;
     }
     .sidebar {
-        width: auto;
+        width: 300px;
         height: 1500px;
+        z-index: 9999999999;
+    }
+    .admin {
+        margin-left: 20px;
+    }
+    .admin img {
+        width: 100px;
+        height: 100px;
+    }
+    .admin h1 {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .link ul li a {
+        font-size: 20px;
     }
     .menu {
         width: 400px;
@@ -403,33 +468,42 @@
     }
     .card {
         flex-direction: column;
-        width: 350px;
+        width:auto;
         height: 600px;
         align-items: flex-start;
+        /* position: relative; */
     }
     .card-1 {
-        width: 280px;
+        display: none;
+        /* width: 280px;
         height: 350px;
-        margin-bottom: 20px;
+        margin-bottom: 20px; */
     }
     .card-2 {
-        width: 280px;
-        height: 350px;
+        margin-left: -40px;
+        width: 330px;
+        height: 290px;
         margin-bottom: 20px;
+        /* background-size: cover; */
     }
     .card-3 {
-        width: 280px;
+        display: none;
+        /* width: 280px;
         height: 350px;
-        margin-bottom: 20px;
+        margin-bottom: 20px; */
     }
     .logo {
        display: none;
     }
     .card-list {
         flex-direction: column;
-        top: 800px;
-        width: 300px;
+        top: 620px;
+        width: 900px;
         left: 30px;
+    }
+    .card-list .p1 {
+        top: -180px;
+        left: 25px;
     }
     .form {
         width: 340px;
@@ -480,4 +554,24 @@
         margin-top: 70px;
         margin-left: 220px;
       }
+      .setting .link-a {
+          top: 220px;
+          left: 40px;
+          width: 40px;
+          height: 40px;
+      }
+      .setting .link-a .prev {
+          width: 20px;
+          height: 20px;
+      }
+      .setting .link-b {
+        top: 220px;
+        left: 300px;
+        width: 40px;
+        height: 40px;
+    }
+    .setting .link-b .next {
+        width: 20px;
+        height: 20px;
+    }
 }
