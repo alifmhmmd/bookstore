@@ -49,10 +49,13 @@
 }
 .sidebar {
     width: 20%;
-    height: 900px;
+    height: 1100px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
     z-index: 999;
+}
+.on {
+    display: none;
 }
 #side-menu {
     
@@ -91,7 +94,6 @@
     font-size: 20px;
     font-family: 'Airbnb Cereal App';
     text-align: center;
-    /* margin-top: 20px; */
     margin-bottom: 60px;
 }
 
@@ -121,11 +123,11 @@
 }
 
 .select1 {
-    left: 200px;
+    left: 160px;
     top: 25px;
 }
 .select2 {
-    left: 350px;
+    left: 300px;
     top: 25px;
 }
 .search a {
@@ -139,21 +141,29 @@
     top: 15px;
     border-radius: 20px;
 }
-.search a img {
+.search {
+    position: relative;
+    top: 16px;
+    left: 450px;
+    font-family: 'Airbnb Cereal App';
+}
+.search [type="text"] {
+    width: 340px;
+    height: 43px;
+    border-radius: 20px;
+    font-size: 17px;
+    padding-left: 80px;
+    border: 1px solid #CACACA;
+    font-family: 'Airbnb Cereal App';
+}
+.search img {
     width: 20px;
     height: 20px;
-    padding-top: 5px;
-    margin-right: 20px;
-    margin-left: 15px;
-}
-.search a span {
-    display: inline-block;
-    font-size: 17px;
-    color: #CACACA;
     position: absolute;
     top: 15px;
-
+    left: 30px;
 }
+
 .klik a {
     display: block;
 }
@@ -190,7 +200,6 @@
     top: 100px;
     left: 60px;
     box-sizing: border-box;
-    /* z-index: 0;  */
 }
 .card-1 {
     width: 400px;
@@ -205,6 +214,26 @@
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
+.on {
+    transform: translateX(-250px);
+    transition: 1s;
+}
+.active {
+    transform: translateX(250px);
+    transition: 1s;
+}
+/* .card-1:hover {
+   transform: scale(1.2,1.1);
+    transition: 1s;
+} */
+/* .card-2:hover {
+   transform: scale(0.9,1.1);
+    transition: 1s;
+}
+.card-3:hover {
+   transform: scale(1,1.1);
+    transition: 1s;
+} */
 .card-1 h2 {
     color: #FFFFFF;
     font-size: 35px;
@@ -275,7 +304,6 @@
     display: flex;
     left: 25px;
     justify-content: center;
-    /* overflow: hidden; */
 }
 .card-list .p1 {
     position: absolute;
@@ -304,6 +332,10 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 10px;
+}
+.gambar-1 h2 a {
+    text-decoration: none;
+    color: black;
 }
 .gambar-1 p {
     margin-left: 10px;
@@ -425,7 +457,7 @@
 
 @media screen and (max-width:480px) {
     .container {
-        width: 40vw;
+        width: 400px;
         height: auto;
     }
     .sidebar {
@@ -458,42 +490,49 @@
     .header form {
         display: none;
     }
+    .search {
+        top: 19px;
+        left: 85px;
+    }
     .klik .image {
         left: -55%;
         top: 10px;
     }
-    .search a {
-        left: 120px;
-        width: 200px;
+    .search [type="text"] {
+        width: 150px;
+        height: 33px;
+        padding-left: 40px;
+    }
+    .search img {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 10px;
+        left: 15px;
     }
     .card {
         flex-direction: column;
         width:auto;
         height: 600px;
         align-items: flex-start;
-        /* position: relative; */
     }
     .card-1 {
         display: none;
-        /* width: 280px;
-        height: 350px;
-        margin-bottom: 20px; */
     }
     .card-2 {
         margin-left: -40px;
         width: 330px;
         height: 290px;
         margin-bottom: 20px;
-        /* background-size: cover; */
     }
     .card-3 {
         display: none;
-        /* width: 280px;
-        height: 350px;
-        margin-bottom: 20px; */
     }
-    .logo {
+    .logo h1 {
        display: none;
+    }
+    .logo  {
+        left: 80%;
     }
     .card-list {
         flex-direction: column;

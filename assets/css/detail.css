@@ -295,13 +295,14 @@
 @media screen and (max-width:480px) {
   .container {
     width: auto;
-    height: 1000px;
+    height: 1300px;
   }
   .cover {
-    width: auto;
-    height: 200px;
+    width: 500px;
+    height: 450px;
+    background-image: url(../image/detail/dilan.png);
     background-size: cover;
-    background-position: -50px 0;
+    background-position: -49px -25px;
   }
   .link {
     position: absolute;
@@ -319,16 +320,7 @@
   color: #FFFFFF;
 }
 .buku {
-  width: 80px;
-  height: 100px;
-  position: absolute;
-  top: 150px;
-  left:290px;
-  font-family: 'Airbnb Cereal App';
-}
-.buku img {
-  width: 80px;
-  height: 100px;
+  display: none;
 }
 .deskripsi {
   width: 740px;
@@ -351,8 +343,8 @@
   font-size: 30px;
   color: white;
   position: absolute;
-  top: 670px;
-  left: 80px;
+  top: 950px;
+  left: 70px;
   font-family: 'Airbnb Cereal App';
 }
 .deskripsi .p2 {
