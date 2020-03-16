@@ -16,9 +16,9 @@ const linkB = document.querySelector('.link-b');
 
 
 linkA.addEventListener('click',function() {
-    card1.classList.toggle('on');
-    card2.classList.toggle('on');
-    card3.classList.toggle('on');
+    card1.classList.toggle('geser');
+    card2.classList.toggle('geser');
+    card3.classList.toggle('geser');
 });
 
 linkB.addEventListener('click',function() {
